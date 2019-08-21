@@ -1,0 +1,44 @@
+    1  ls
+    2  whoami
+    3  ls /usr/bin
+    4  ls /usr/bin -r|grep "gcc"
+    5  ls /usr/bin -r|grep "py"
+    6  ls /usr/bin -r|grep "p"
+    7  ls /usr/bin -r|grep "py"
+    8  ls -r  /usr/bin |grep "py"
+    9  ls /usr/bin |grep "py"
+   10  ls /usr/bin -r|grep "py"
+   11  git config --global user.name "AlexHurt7"
+   14  git remote add origin https://github.com/AlexHurt/oshomeworks
+   15  git add week1/.
+   16  git add week1/ex1.txt
+   17  git status
+   18  git commit -m "week1 lab"
+   19  git config --global user.name "AlexHurt7"
+   21  git config --global user.email "lexa.small9@gmail.com"
+   22  git commit --amend --reset-author
+   23  git status
+   24  git commit -m "Week1 Lab"
+   25  git push origin master
+   26  git help
+   27  git mv week1 week01
+   28  git status
+   29  git commit -m "Renamed to week01"
+   30  git push origin master
+   31  ls /usr/bin/ -r| grep "gcc" 
+   32  ls /usr/bin/ -r| grep "gcc" >> ex1.txt
+   33  git status
+   34  history > ex2.txt
+   35  git status
+   36  git add week01/.
+   37  git status
+   38  ls /usr/bin/ -r| grep "gcc" >> week01/ex1.txt
+   39  history > week01/ex2.txt
+   40  git status
+   41  git add week01/.
+   42  git status
+   43  git commit -m "changes in ex1 and ex2"
+   44  git reset 2d11c68
+   45  git reset --hard 2d11c68
+   46  ls /usr/bin/ -r| grep "gcc" >> week01/ex1.txt
+   47  history > week01/ex2.txt
